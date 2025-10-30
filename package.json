@@ -11,7 +11,7 @@
     "tsc:app": "tsc -p tsconfig.app.json",
     "tsc:node": "tsc -p tsconfig.node.json",
     "dev:host": "vite --config vite.host.config.mts",
-    "start:node": "node --loader tsx pizzaz_server_node/src/server.ts"
+    "start:node": "node --import tsx pizzaz_server_node/src/server.ts"
   },
   "engines": {
     "node": ">=18.0.0"
